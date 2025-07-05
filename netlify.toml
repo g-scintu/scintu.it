@@ -1,0 +1,9 @@
+[build]
+command = "hugo --minify" # rimuovo -gc ovvero garbacecollector
+publish = ""
+HUGO_TIMEOUT = 300000
+
+[context.production.environment]
+HUGO_VERSION = "0.93.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
